@@ -1,0 +1,28 @@
+# Python 3.14. Fine-tuning (notebooks/05_finetune.ipynb) runs on Colab and installs its own
+# packages; everything else runs locally on CPU.
+pandas==3.0.6
+numpy==2.5.3
+pyarrow==25.0.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+datasets==5.0.1
+python-dotenv==1.2.3
+openai==3.19.2
+rank-bm25==0.2.2
+sentence-transformers==6.1.0
+torch==2.14.0
+transformers==5.17.0
+peft==0.21.0
+trl==1.14.0
+huggingface_hub==1.33.0
+llama-cpp-python==0.3.35
+rouge_score==0.1.2
+bert-score==0.3.13
+mlflow==3.16.1
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5
+gradio==6.28.0
+pytest==9.1.1
+httpx==0.28.1

@@ -1,0 +1,5 @@
+# llama-cpp-python compiles from source during the Space build (several minutes): the prebuilt CPU
+# wheels on abetlen.github.io stop at 0.3.19 and those are linked against musl, so they fail to load
+# on the Space's glibc image. 0.3.16 built from source is tested with this project's GGUF files.
+llama-cpp-python==0.3.16
+huggingface_hub

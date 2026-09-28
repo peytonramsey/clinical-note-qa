@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# data, models and run outputs (large or regenerable)
+data/
+models/
+results/
+mlruns/
+mlflow.db
+*.gguf
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# personal working files
+Clinical Note QA — Build Guide.md
+PROJECT_REPORT.md
+eda copy.ipynb
+eda copy.qmd
+notes.md
